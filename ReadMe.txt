@@ -20,4 +20,4 @@ from here the Map is displayed and the user can press current location and the a
 The map displays a pin of a hard coded location as well as a circle showing the accuracy of the fix
 
 I was unable to keep a consistent look to the app due to problems with routing when using bootstrap.
-When I attempted to make the application look more organise the functionality was unavailable)
+When I attempted to make the application look more organised the functionality was unavailable)

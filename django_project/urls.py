@@ -21,7 +21,8 @@ from django_project import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('accounts/', include('django.contrib.auth.urls')),
-    path('map.html', views.map),
+    path('account/', include('django.contrib.auth.urls')),
+    path('base.html/', views.base),
+    path('home.html/', views.home),
     path('', TemplateView.as_view(template_name='home.html'), name='home'),  # new
 ]

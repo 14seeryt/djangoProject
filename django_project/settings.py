@@ -97,7 +97,7 @@ DATABASES = {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'gis',
         'USER': 'docker',
-        'PASSWORD': 'QESweIPvo7R1poT+VImk',
+        'PASSWORD': 'docker',
         'PORT': '25432',
     }
 }
@@ -144,5 +144,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # django_project/settings.py
-LOGIN_REDIRECT_URL = "home"
+LOGIN_REDIRECT_URL = "/"
 LOGOUT_REDIRECT_URL = "home"  # new
